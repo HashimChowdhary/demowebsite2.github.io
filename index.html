@@ -9,7 +9,7 @@
         <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="style.css">
-        <!-- <script src="assets/js/svgxuse.js"></script> -->
+        <script src="assets/js/svgxuse.js"></script>
         <script>
             document.documentElement.classList.add('js-enabled');
         </script>
@@ -35,7 +35,7 @@
                             <button class="ds_notification__close  js-close-notification" type="button">
                                 <span class="visually-hidden">Close this notification</span>
                                 <span class="ds_icon ds_icon--fill"><i class="material-icons" style="font-size: 35px;">close</i></span>
-                                <svg class="ds_icon  ds_icon--fill" aria-hidden="true" role="img"><use href="assets/images/icons/icons.stack.svg#close"></use></svg>
+                                <!-- <svg class="ds_icon  ds_icon--fill" aria-hidden="true" role="img"><use href="assets/images/icons/icons.stack.svg#close"></use></svg> -->
                             </button>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                                     <span class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><i class="material-icons">menu</i></span>
                                     <span class="ds_icon  ds_site-header__control-icon  ds_site-header__control-icon--active-icon" aria-hidden="true" role="img"><i class="material-icons">close</i></span>
                                     <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use href="assets/images/icons/icons.stack.svg#menu"></use></svg>
-                                    <svg class="ds_icon  ds_site-header__control-icon  ds_site-header__control-icon--active-icon" aria-hidden="true" role="img"><use href="assets/images/icons/icons.stack.svg#close"></use></svg>
+                                    <!-- <svg class="ds_icon  ds_site-header__control-icon  ds_site-header__control-icon--active-icon" aria-hidden="true" role="img"><use href="assets/images/icons/icons.stack.svg#close"></use></svg> -->
                                 </label>
                             </div>
 
@@ -99,7 +99,7 @@
                                         <button type="submit" class="ds_button  js-site-search-button">
                                             <span class="visually-hidden">Search</span>
                                             <span class="ds_icon"><i class="material-icons" style="font-size: 35px;">search</i></span>
-                                            <svg class="ds_icon" aria-hidden="true" role="img"><use href="assets/images/icons/icons.stack.svg#search"></use></svg>
+                                            <!-- <svg class="ds_icon" aria-hidden="true" role="img"><use href="assets/images/icons/icons.stack.svg#search"></use></svg> -->
                                         </button>
                                     </div>
                                 </form>
@@ -155,7 +155,7 @@
                 <div class="ds_bg_lightgray">
                     <div class="ds_wrapper">
                         <div class="">
-                            <h1 class="ds_title">Compare services</h1>
+                            <h2 class="ds_title">Compare services</h2>
                             <p>Search and compare services side by side to decide which one is best for you</p>
                             <button class="ds_button  ds_button--secondary ds_button--max">Compare</button>
                         </div>
@@ -164,6 +164,48 @@
                     
                 </div>
                 <div class="ds_wrapper">
+                    <main class="ds_main">
+                        <div class="">
+                            <h2 class="ds_title ds_!_margin-bottom--1">Support Services</h2>
+                            <p class="ds_!_margin-bottom--1">Search and compare services side by side to decide which one is best for you</p>
+                            <!-- <button class="ds_button  ds_button--secondary ds_button--max">Compare</button> -->
+                        </div>
+                        <div>
+                            <div>
+                                <label class="ds_label" for="component">Service type</label>
+                                <div class="ds_select-wrapper  ds_input--fluid-one-third ds_!_margin-bottom--2">
+                                    <select class="ds_select" id="component">
+                                        <option>All support services (17)</option>
+                                        <option>Accordion</option>
+                                        <option>Breadcrumbs</option>
+                                        <option>Button</option>
+                                    </select>
+                                    <span class="ds_select-arrow" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="ds_button  ds_button--secondary ds_!_margin-bottom--2 ds_!_margin-top--2">Filter <span class="ds_icon- "><i class="material-icons" style="vertical-align: bottom;">filter_list</i></span></button>
+                            </div>
+                            <div>
+                                <label class="ds_label" for="component">Sort by</label>
+                                <div class="ds_select-wrapper  ds_input--fluid-one-third ds_!_margin-bottom--2">
+                                    <select class="ds_select" id="component">
+                                        <option>Sort by</option>
+                                        <option>Accordion</option>
+                                        <option>Breadcrumbs</option>
+                                        <option>Button</option>
+                                    </select>
+                                    <span class="ds_select-arrow" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </main>
+                    
+                    <main class="ds_layout">
+                        <p>adf</p>
+                    </main>
                 <!--
                     Main content
                 -->
@@ -190,7 +232,7 @@
                              <fieldset>
                                 <div class="ds_question">
                                     <label class="ds_label" for="address-postcode">
-                                        Postcode Test
+                                        Postcode
                                     </label>
                                     <input class="ds_input  ds_input--fixed-10" type="text" name="address-postcode" id="address-postcode" autocomplete="postal-code" />
                                 </div>
