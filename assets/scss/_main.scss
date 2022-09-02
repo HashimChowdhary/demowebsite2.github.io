@@ -74,5 +74,61 @@ $ds_bg_lightgray:#F3F2F1;
     }
     .ds_main {
         padding: 2rem 0rem;
+        .ds_filter-row {
+            display: flex;
+            align-items: normal;
+            @media only screen and (max-width: 767px) {
+                flex-direction: column;
+            }
+            .ds_service-type, .ds_sort-by {
+                flex: 2;
+            }
+            .ds_btn-filter {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                @media only screen and (max-width: 767px) {
+                    justify-content: start;
+                }
+                align-items: flex-end;
+                .ds_button {
+                    height: 48px;
+                    padding: 12px 16px;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        display: inline-block;
+                        width: 15%;
+                        height: 2px;
+                        background-color: $ds_colour__brand;
+                        left: 43%;
+                        top: -20%;
+                        z-index: -1;
+                        transform: rotate(90deg);
+                        @media only screen and (max-width: 767px) {
+                            display: none;
+                        }
+
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        display: inline-block;
+                        width: 15%;
+                        height: 2px;
+                        background-color: $ds_colour__brand;
+                        right: 41%;
+                        bottom: -20%;
+                        z-index: -1;
+                        transform: rotate(90deg);
+                        @media only screen and (max-width: 767px) {
+                            display: none;
+                        }
+                    }
+                }
+                
+                
+            }
+        }
     }
 }

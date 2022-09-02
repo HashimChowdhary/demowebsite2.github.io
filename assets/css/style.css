@@ -16025,5 +16025,66 @@ fieldset {
 .ds_page__middle .ds_main {
   padding: 2rem 0rem;
 }
+.ds_page__middle .ds_main .ds_filter-row {
+  display: flex;
+  align-items: normal;
+}
+@media only screen and (max-width: 767px) {
+  .ds_page__middle .ds_main .ds_filter-row {
+    flex-direction: column;
+  }
+}
+.ds_page__middle .ds_main .ds_filter-row .ds_service-type, .ds_page__middle .ds_main .ds_filter-row .ds_sort-by {
+  flex: 2;
+}
+.ds_page__middle .ds_main .ds_filter-row .ds_btn-filter {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media only screen and (max-width: 767px) {
+  .ds_page__middle .ds_main .ds_filter-row .ds_btn-filter {
+    justify-content: start;
+  }
+}
+.ds_page__middle .ds_main .ds_filter-row .ds_btn-filter .ds_button {
+  height: 48px;
+  padding: 12px 16px;
+}
+.ds_page__middle .ds_main .ds_filter-row .ds_btn-filter .ds_button::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 15%;
+  height: 2px;
+  background-color: #0065bd;
+  left: 43%;
+  top: -20%;
+  z-index: -1;
+  transform: rotate(90deg);
+}
+@media only screen and (max-width: 767px) {
+  .ds_page__middle .ds_main .ds_filter-row .ds_btn-filter .ds_button::before {
+    display: none;
+  }
+}
+.ds_page__middle .ds_main .ds_filter-row .ds_btn-filter .ds_button::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 15%;
+  height: 2px;
+  background-color: #0065bd;
+  right: 41%;
+  bottom: -20%;
+  z-index: -1;
+  transform: rotate(90deg);
+}
+@media only screen and (max-width: 767px) {
+  .ds_page__middle .ds_main .ds_filter-row .ds_btn-filter .ds_button::after {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
