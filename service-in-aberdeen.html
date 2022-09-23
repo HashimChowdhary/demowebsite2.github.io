@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Domestic Abuse</title>
+        <!-- <link rel="stylesheet" href="assets/css/pattern-library.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+        <script src="assets/js/svgxuse.js"></script>
+        <script>
+            document.documentElement.classList.add('js-enabled');
+        </script>
+    </head>
+  
+    <body>
+        <div class="ds_page">
+            <div class="ds_page__top">
+                <!--
+                    Notifications
+                    Site header
+                    Site navigation
+                -->
+                <div class="ds_top_band ds_bg_darkred">
+                    <div class="ds_wrapper">
+                        <p>If you’re worried someone might be monitoring your devices, protect yourself with <a href="#">private browsing.</a></p>
+                    </div>
+                </div>
+                
+                <header class="ds_site-header  ds_site-header--gradient" role="banner">
+                    <div class="ds_wrapper">
+                        <div class="ds_site-header__content">
+                            <div class="ds_site-branding">
+                                <a class="ds_site-branding__logo  ds_site-branding__link" href="/">
+                                    <span class="ds_branding_logo-content">
+                                    <img class="ds_site-branding__logo-image" src="assets/images/logos/Aberdeen_Protects_white.png" alt="Digital Scotland" />
+                                    <span class="ds_logo-text">Domestic abuse support services</span>  
+                                    </span>
+                                </a>
+
+                                <!-- <div class="ds_site-branding__title">
+                                    Design System
+                                </div> -->
+                            </div>
+                        
+                            <div class="ds_site-header__controls">
+                                <label aria-controls="mobile-navigation" class="ds_site-header__control  js-toggle-menu" for="menu">
+                                    <span class="ds_site-header__control-text">Menu</span>
+                                    <span class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><i class="material-icons">menu</i></span>
+                                    <span class="ds_icon  ds_site-header__control-icon  ds_site-header__control-icon--active-icon" aria-hidden="true" role="img"><i class="material-icons">close</i></span>
+                                    <!-- <svg class="ds_icon  ds_site-header__control-icon" aria-hidden="true" role="img"><use href="assets/images/icons/icons.stack.svg#menu"></use></svg> -->
+                                    <!-- <svg class="ds_icon  ds_site-header__control-icon  ds_site-header__control-icon--active-icon" aria-hidden="true" role="img"><use href="assets/images/icons/icons.stack.svg#close"></use></svg> -->
+                                </label>
+                            </div>
+
+                            <input class="ds_site-navigation__toggle" id="menu" type="checkbox" />
+                            <nav id="mobile-navigation" class="ds_site-navigation  ds_site-navigation--mobile" data-module="ds-mobile-navigation-menu">
+                                <ul class="ds_site-navigation__list">
+                                    <li class="ds_site-navigation__item">
+                                        <a href="index.html" class="ds_site-navigation__link">
+                                            Get started
+                                        </a>
+                                    </li>
+                                    <li class="ds_site-navigation__item">
+                                        <a href="report-your-concern.html" class="ds_site-navigation__link">
+                                            Are you concerned?
+                                        </a>
+                                    </li>
+                                    <li class="ds_site-navigation__item">
+                                        <span class="ds_site-navigation__link  ds_current">
+                                            Services in Aberdeen
+                                        </span>
+                                    </li>
+                                    <li class="ds_site-navigation__item">
+                                        <a href="#" class="ds_site-navigation__link">
+                                            Protecting yourself online
+                                        </a>
+                                    </li>
+                                    <li class="ds_site-navigation__item">
+                                        <a href="#" class="ds_site-navigation__link">
+                                            What is domestic abuse?
+                                        </a>
+                                    </li>
+                                    <li class="ds_site-navigation__item">
+                                        <a href="#" class="ds_site-navigation__link">
+                                            About us
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <div class="ds_site-search  ds_site-header__search" data-module="ds-site-search">
+                                <form role="search" class="ds_site-search__form">
+                                    <label class="ds_label  visually-hidden" for="site-search">Search</label>
+
+                                    <div class="ds_input__wrapper  ds_input__wrapper--has-icon">
+                                        <input name="q" required="" id="site-search" class="ds_input  ds_site-search__input" type="text" placeholder="Search" autocomplete="off" />
+
+                                        <button type="submit" class="ds_button  js-site-search-button ds_bg_bluebutton">
+                                            <span class="visually-hidden">Search</span>
+                                            <span class="ds_icon"><i class="material-icons" style="font-size: 35px;">search</i></span>
+                                            <!-- <svg class="ds_icon" aria-hidden="true" role="img"><use href="assets/images/icons/icons.stack.svg#search"></use></svg> -->
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ds_site-header__navigation">
+                        <div class="ds_wrapper">
+                            <nav class="ds_site-navigation">
+                                <ul class="ds_site-navigation__list">
+                                    <li class="ds_site-navigation__item">
+                                        <a href="index.html" class="ds_site-navigation__link">
+                                            Get started
+                                        </a>
+                                    </li>
+                                    <li class="ds_site-navigation__item">
+                                        <a href="report-your-concern.html" class="ds_site-navigation__link">
+                                            Are you concerned?
+                                        </a>
+                                    </li>
+                                    <li class="ds_site-navigation__item">
+                                        <a href="#"  class="ds_site-navigation__link ds_current">
+                                            Services in Aberdeen
+                                        </a>
+                                    </li>
+                                    <li class="ds_site-navigation__item">
+                                        <a href="#" class="ds_site-navigation__link">
+                                            Protecting yourself online
+                                        </a>
+                                    </li>
+                                    <li class="ds_site-navigation__item">
+                                        <a href="#" class="ds_site-navigation__link">
+                                            What is domestic abuse?
+                                        </a>
+                                    </li>
+                                    <li class="ds_site-navigation__item">
+                                        <a href="#" class="ds_site-navigation__link">
+                                            About us
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            
+            <div class="ds_page__middle">
+                <div class="ds_!_margin-bottom--2 ds_!_margin-top--2">
+                    <div class="ds_wrapper">
+                        <nav aria-label="Breadcrumb">
+                            <ol class="ds_breadcrumbs">
+                                <li class="ds_breadcrumbs__item">
+                                    <a class="ds_breadcrumbs__link" href="index.html">
+                                        Getting Started
+                                    </a>
+                                </li>
+                                
+                                
+                        
+                                <li class="ds_breadcrumbs__item" aria-current="page">
+                                    Service in Aberdeen
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div>
+                    <div class="ds_wrapper">
+                        <h1 class="ds_title ds_!_margin-bottom--1 ds_textcolor-primary">Find domestic abuse support in Aberdeen</h2>
+                            <p class="ds_!_margin-bottom--1">See services available in Aberdeen. Choose services most relevant to your situation.</p>
+                    </div>
+                </div>
+                <div class="ds_filter-row mb-4">
+                    <div class="ds_wrapper">
+                        <div class="ds_bg_lightgray px-md-3 px-2">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="ds_filter-section">
+                                        <h3 class="ds_textcolor-primary">Select a type of support</h3>
+                                        <div class="circle">
+                                            <span>1</span>
+                                        </div>
+                                        <div class="ds_accordion-item">
+                                            <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-support" aria-labelledby="panel-2-heading" />
+                                            <div class="ds_accordion-item__header">
+                                                <h3 id="panel-2-heading" class="ds_accordion-item__title">
+                                                    Type of support
+                                                </h3>
+                                                <span class="ds_accordion-item__indicator"></span>
+                                                <label class="ds_accordion-item__label" for="panel-support"><span class="visually-hidden">Show this section</span></label>
+                                            </div>
+                                            <div class="ds_accordion-item__body">
+                                                <div class="ds_field-group">
+                                                    <div class="ds_radio  ds_radio--small">
+                                                        <input class="ds_radio__input" name="radioFilter" id="all" type="radio" />
+                                                        <label class="ds_radio__label" for="all">All types of support (<span>50</span>)</label>
+                                                    </div>
+                                        
+                                                    <div class="ds_radio  ds_radio--small">
+                                                        <input class="ds_radio__input" name="radioFilter" id="second" type="radio" />
+                                                        <label class="ds_radio__label" for="second">Domestic abuse organisations and charities (<span>5</span>)</label>
+                                                    </div>
+                                        
+                                                    <div class="ds_radio  ds_radio--small">
+                                                        <input class="ds_radio__input" name="radioFilter" id="third" type="radio" />
+                                                        <label class="ds_radio__label" for="third">Housing support (5) </label>
+                                                    </div>
+
+                                                    <div class="ds_radio  ds_radio--small">
+                                                        <input class="ds_radio__input" name="radioFilter" id="fourth" type="radio" />
+                                                        <label class="ds_radio__label" for="fourth">Housing support (5) </label>
+                                                    </div>
+
+                                                    <div class="ds_radio  ds_radio--small">
+                                                        <input class="ds_radio__input" name="radioFilter" id="fifth" type="radio" />
+                                                        <label class="ds_radio__label" for="fifth">Financial support (5) </label>
+                                                    </div>
+
+                                                    <div class="ds_radio  ds_radio--small">
+                                                        <input class="ds_radio__input" name="radioFilter" id="sixth" type="radio" />
+                                                        <label class="ds_radio__label" for="sixth">Family support (5) </label>
+                                                    </div>
+                                                    <div class="ds_radio  ds_radio--small">
+                                                        <input class="ds_radio__input" name="radioFilter" id="seventh" type="radio" />
+                                                        <label class="ds_radio__label" for="seventh">Specialist LGBTQIA+ services (5) </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ds_filter-section">
+                                        <h3 class="ds_textcolor-primary">Select options to make your results more relevant <small>(optional)</small></h3>
+                                        <div class="circle">
+                                            <span>2</span>
+                                        </div>
+                                        <div class="">
+                                            <div class="ds_accordion js-initialised ds_!_margin-top--0" data-module="ds-accordion">
+                                                <button data-accordion="accordion-open-all" type="button" class="ds_link  ds_accordion__open-all  js-open-all">Open all <span class="visually-hidden">sections</span></button>
+                                            
+                                                <div class="ds_accordion-item">
+                                                    <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-1" aria-labelledby="panel-1-heading" />
+                                                    <div class="ds_accordion-item__header">
+                                                        <h3 id="panel-1-heading" class="ds_accordion-item__title">
+                                                            Who can use this service
+                                                        </h3>
+                                                        <span class="ds_accordion-item__indicator"></span>
+                                                        <label class="ds_accordion-item__label" for="panel-1"><span class="visually-hidden">Show this section</span></label>
+                                                    </div>
+                                                    <div class="ds_accordion-item__body ds_!_padding-top--1 ds_!_padding-bottom--2">
+                                                        <div class="ds_field-group">
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="male" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="male">Male</label>
+                                                            </div>
+                                                
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="female" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="female">Female</label>
+                                                            </div>
+                                                
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="trans-m-f" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="trans-m-f">Transgender M to F</label>
+                                                            </div>
+        
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="trans-f-m" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="trans-f-m">Transgender F to M</label>
+                                                            </div>
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="adult" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="adult">Adult</label>
+                                                            </div>
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="child" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="child">Child</label>
+                                                            </div>
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="teens" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="teens">Teens</label>
+                                                            </div>
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="nonuk" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="nonuk">NOn-UK national</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="ds_accordion-item">
+                                                    <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-2" aria-labelledby="panel-2-heading" />
+                                                    <div class="ds_accordion-item__header">
+                                                        <h3 id="panel-2-heading" class="ds_accordion-item__title">
+                                                            Type of service
+                                                        </h3>
+                                                        <span class="ds_accordion-item__indicator"></span>
+                                                        <label class="ds_accordion-item__label" for="panel-2"><span class="visually-hidden">Show this section</span></label>
+                                                    </div>
+                                                    <div class="ds_accordion-item__body ds_!_padding-top--1 ds_!_padding-bottom--2">
+                                                        <div class="ds_field-group">
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="advice" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="advice">Advice</label>
+                                                            </div>
+                                                
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="information" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="information">Information</label>
+                                                            </div>
+                                                
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="advocacy" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="advocacy">Advocacy</label>
+                                                            </div>
+        
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="counselling" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="counselling">Counselling</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="ds_accordion-item">
+                                                    <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-3" aria-labelledby="panel-3-heading" />
+                                                    <div class="ds_accordion-item__header">
+                                                        <h3 id="panel-3-heading" class="ds_accordion-item__title">
+                                                            How you can attend
+                                                        </h3>
+                                                        <span class="ds_accordion-item__indicator"></span>
+                                                        <label class="ds_accordion-item__label" for="panel-3"><span class="visually-hidden">Show this section</span></label>
+                                                    </div>
+                                                    <div class="ds_accordion-item__body ds_!_padding-top--1 ds_!_padding-bottom--2">
+                                                        <div class="ds_field-group">
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="referal" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="referal">Referal</label>
+                                                            </div>
+                                                
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="dropin" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="dropin">Drop-in</label>
+                                                            </div>
+                                                
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="phone-online" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="phone-online">Phone Online</label>
+                                                            </div>
+        
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="inperson" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="inperson">in-person</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ds_accordion-item">
+                                                    <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-4" aria-labelledby="panel-3-heading" />
+                                                    <div class="ds_accordion-item__header">
+                                                        <h3 id="panel-3-heading" class="ds_accordion-item__title">
+                                                            Location
+                                                        </h3>
+                                                        <span class="ds_accordion-item__indicator"></span>
+                                                        <label class="ds_accordion-item__label" for="panel-4"><span class="visually-hidden">Show this section</span></label>
+                                                    </div>
+                                                    <div class="ds_accordion-item__body ds_!_padding-top--1 ds_!_padding-bottom--2">
+                                                        <div class="ds_field-group">
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="lcoal-aberdeen" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="lcoal-aberdeen">Local to Aberdeen</label>
+                                                            </div>
+                                                
+                                                            <div class="ds_checkbox  ds_checkbox--small">
+                                                                <input class="ds_checkbox__input" id="dropin" type="checkbox" />
+                                                                <label class="ds_checkbox__label" for="dropin">National</label>
+                                                            </div>
+                                                
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+
+                                        </div>
+                                        <div>
+                                            <p>
+                                                <button class="ds_button">Search</button>
+                                                <button class="ds_button  ds_button--secondary">Clear Filters</button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="ds_wrapper">
+                        <div class="ds_bg_lightgray px-md-3 px-2">
+                            <div class="row">
+                                <div class="col-md-8"><h3 class="ds_title ds_textcolor-primary">Selected Filters</h3></div>
+                                <div class="col-md-4 text-right"><a href="#">Clear filters</a></div>
+                            </div>
+                            <div>
+                                <ul class="ds_filter-badges">
+                                    <li>
+                                        <span>Housing support</span>
+                                        <span tabindex="0" class="ds_close ml-1"><i class="material-icons">close</i></span>
+                                    </li>
+                                    <li>
+                                        <span>Transgender M to F</span>
+                                        <span tabindex="0" class="ds_close ml-1"><i class="material-icons">close</i></span>
+                                    </li>
+                                    <li>
+                                        <span>Non-UK National</span>
+                                        <span tabindex="0" class="ds_close ml-1"><i class="material-icons">close</i></span>
+                                    </li>
+                                    <li>
+                                        <span>Referral</span>
+                                        <span tabindex="0" class="ds_close ml-1"><i class="material-icons">close</i></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="ds_wrapper">
+                    <main class="ds_main">
+                        <div class="">
+                            <h1 class="ds_title ds_!_margin-bottom--3 ds_textcolor-primary">50 services found</h1>
+                        </div>
+                        
+                        <div class="ds_section ds_!_margin-bottom--2">
+                            <!-- <div class="ds_section-title">
+                                <h1 class="ds_!_margin-bottom--2">Specialist Domestic Abuse Services</h1>
+                                <hr class="ds_!_margin-bottom--2 ds_!_margin-top--2" style="border-top: 1px solid #000000;"/>
+                            </div> -->
+                            <div class="ds_content">
+                                <div class="ds_services-list">
+                                    <h2 class="ds_title ds_!_margin-bottom--2">
+                                        <a class="ds_search-result__link" href="#">Cyrenians Ending Violence and Abuse Aberdeen (EVAA)</a>
+                                    </h2>
+                                    <p class="ds_!_margin-bottom--1">EVAA offers support for women experiencing gender-based abuse including physical, emotional, financial or sexual abuse, sexual exploitation, human trafficking and coercive control, and support for women, men, families, and people, experiencing domestic abuse.</p>
+                                    <div class="ds_accordion-item">
+                                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-s1" aria-labelledby="panel-1-heading" />
+                                        <div class="ds_accordion-item__header">
+                                            <h3 id="panel-1-heading" class="ds_accordion-item__title">
+                                                View service information
+                                            </h3>
+                                            <span class="ds_accordion-item__indicator"></span>
+                                            <label class="ds_accordion-item__label" for="panel-s1"><span class="visually-hidden">Show this section</span></label>
+                                        </div>
+                                        <div class="ds_accordion-item__body">
+                                            <div class="home_services-list">
+                                                <!-- <ul>
+                                                    <li>13+ </li>
+                                                    <li>Men, Women, Trans Men, Trans Women, Non-binary, Genderfluid (LGBTQIA+)</li>
+                                                    <li>Minimum age: 18</li>
+                                                    <li>Maximum age : 65</li>
+                                                </ul> -->
+                                                <h5>Contact information</h5>
+                                                <!-- <h5 class="ds_!_margin-bottom--1"><u>Rape Crisis Grampian</u> </h5> -->
+                                                <h5 class="ds_textcolor-primary">Point of contact</h5>
+                                                <address>
+                                                    Contact Name <br />
+                                                    Contact Title<br />
+                                                    <a href="tel:+9103003030903">0300 303 0903</a>
+                                                </address>
+                                                <h5 class="ds_textcolor-primary">Phone Language codes:</h5>
+                                                <p>English</p>
+                                                <h5 class="ds_textcolor-primary">Email</h5>
+                                                <p><a href="mailto:dasap@weareac.org">dasap@weareac.org</a></p>
+                                                <h5 class="ds_textcolor-primary">Website</h5>
+                                                <p><a href="https://www.weareac.org/get-support/dasap" target="_blank">https://www.weareac.org/get-support/dasap</a></p>
+                                                <h5 class="ds_textcolor-primary">Location</h5>
+                                                <p>Local to Aberdeen</p>
+
+                                                <h5 class="ds_textcolor-primary">Office address</h5>
+                                                <address>
+                                                    Address line 1 <br />
+                                                    Address line 2<br />
+                                                    Address line 3<br />
+                                                    Postcode<br />
+                                                    country
+                                                </address>
+
+                                                <h5 class="ds_textcolor-primary">Opening times</h5>
+                                                <address>
+                                                    Mon 7am-7pm<br />
+                                                    Tues 7am-7pm<br />
+                                                    Wed 7am-7pm<br />
+                                                    Thu  7am-7pm<br />
+                                                </address>
+
+                                                <p>Closed on weekends</p>
+
+                                                <p><a href="#" class="ds_button  ds_button--max">View service information <i class="material-icons" style="vertical-align: top;">chevron_right</i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="hr-line">
+                                    <hr class="ds_!_margin-bottom--1 ds_!_margin-top--1">
+                                </div>
+
+                                <div class="ds_services-list">
+                                    <h2 class="ds_title ds_!_margin-bottom--2">
+                                        <a class="ds_search-result__link" href="#">Grampian Women’s Aid</a>
+                                    </h2>
+                                    <p class="ds_!_margin-bottom--1">Free, confidential specialist service to women, children and young people in Aberdeen and Aberdeenshire who have experienced domestic abuse.</p>
+                                    <!-- <button class="ds_button  ds_button--secondary ds_button--max ds_!_margin-bottom--0">View service information <span class=""><i class="material-icons" style="vertical-align: bottom;">chevron_right</i></span> </button> -->
+                                    <div class="ds_accordion-item">
+                                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-s2" aria-labelledby="panel-1-heading" />
+                                        <div class="ds_accordion-item__header">
+                                            <h3 id="panel-1-heading" class="ds_accordion-item__title">
+                                                View service information
+                                            </h3>
+                                            <span class="ds_accordion-item__indicator"></span>
+                                            <label class="ds_accordion-item__label" for="panel-s2"><span class="visually-hidden">Show this section</span></label>
+                                        </div>
+                                        <div class="ds_accordion-item__body">
+                                            <div class="home_services-list">
+                                                <!-- <ul>
+                                                    <li>13+ </li>
+                                                    <li>Men, Women, Trans Men, Trans Women, Non-binary, Genderfluid (LGBTQIA+)</li>
+                                                    <li>Minimum age: 18</li>
+                                                    <li>Maximum age : 65</li>
+                                                </ul> -->
+                                                <h5>Contact information</h5>
+                                                <!-- <h5 class="ds_!_margin-bottom--1"><u>Rape Crisis Grampian</u> </h5> -->
+                                                <h5 class="ds_textcolor-primary">Point of contact</h5>
+                                                <address>
+                                                    Contact Name <br />
+                                                    Contact Title<br />
+                                                    <a href="tel:+9103003030903">0300 303 0903</a>
+                                                </address>
+                                                <h5 class="ds_textcolor-primary">Phone Language codes:</h5>
+                                                <p>English</p>
+                                                <h5 class="ds_textcolor-primary">Email</h5>
+                                                <p><a href="mailto:dasap@weareac.org">dasap@weareac.org</a></p>
+                                                <h5 class="ds_textcolor-primary">Website</h5>
+                                                <p><a href="https://www.weareac.org/get-support/dasap" target="_blank">https://www.weareac.org/get-support/dasap</a></p>
+                                                <h5 class="ds_textcolor-primary">Location</h5>
+                                                <p>Local to Aberdeen</p>
+
+                                                <h5 class="ds_textcolor-primary">Office address</h5>
+                                                <address>
+                                                    Address line 1 <br />
+                                                    Address line 2<br />
+                                                    Address line 3<br />
+                                                    Postcode<br />
+                                                    country
+                                                </address>
+
+                                                <h5 class="ds_textcolor-primary">Opening times</h5>
+                                                <address>
+                                                    Mon 7am-7pm<br />
+                                                    Tues 7am-7pm<br />
+                                                    Wed 7am-7pm<br />
+                                                    Thu  7am-7pm<br />
+                                                </address>
+
+                                                <p>Closed on weekends</p>
+
+                                                <p><a href="#" class="ds_button  ds_button--max">View service information <i class="material-icons" style="vertical-align: top;">chevron_right</i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-line">
+                                    <hr class="ds_!_margin-bottom--1 ds_!_margin-top--1">
+                                </div>
+
+                                <div class="ds_services-list">
+                                    <h2 class="ds_title ds_!_margin-bottom--2">
+                                        <a class="ds_search-result__link" href="#">FearFree (SACRO)</a></h2>
+                                    <p class="ds_!_margin-bottom--1">Support service for any man, or LGBTQAI+ person experiencing domestic abuse. This service is limited. </p>
+                                    <div class="ds_accordion-item">
+                                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-3" aria-labelledby="panel-2-heading" />
+                                        <div class="ds_accordion-item__header">
+                                            <h3 id="panel-2-heading" class="ds_accordion-item__title">
+                                                View service information
+                                            </h3>
+                                            <span class="ds_accordion-item__indicator"></span>
+                                            <label class="ds_accordion-item__label" for="panel-3"><span class="visually-hidden">Show this section</span></label>
+                                        </div>
+                                        <div class="ds_accordion-item__body">
+                                            <p>Veterans are entitled to the same healthcare as any citizen. And there are <a href="#">health care options and support</a> available specifically for veterans.  </p>
+                                            <p>If you have a health condition that's related to your service, you're entitled to priority treatment based on clinical need. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-line">
+                                    <hr class="ds_!_margin-bottom--1 ds_!_margin-top--1">
+                                </div>
+
+                                <div class="ds_services-list">
+                                    <h2 class="ds_title ds_!_margin-bottom--2">
+                                        <a class="ds_search-result__link" href="#">Cyrenians Ending Violence and Abuse Aberdeen (EVAA)</a>
+                                    </h2>
+                                    <p class="ds_!_margin-bottom--1">EVAA offers support for women experiencing gender-based abuse including physical, emotional, financial or sexual abuse, sexual exploitation, human trafficking and coercive control, and support for women, men, families, and people, experiencing domestic abuse.</p>
+                                    <div class="ds_accordion-item">
+                                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-4" aria-labelledby="panel-1-heading" />
+                                        <div class="ds_accordion-item__header">
+                                            <h3 id="panel-1-heading" class="ds_accordion-item__title">
+                                                View service information
+                                            </h3>
+                                            <span class="ds_accordion-item__indicator"></span>
+                                            <label class="ds_accordion-item__label" for="panel-4"><span class="visually-hidden">Show this section</span></label>
+                                        </div>
+                                        <div class="ds_accordion-item__body">
+                                            <p>Veterans are entitled to the same healthcare as any citizen. And there are <a href="#">health care options and support</a> available specifically for veterans.  </p>
+                                            <p>If you have a health condition that's related to your service, you're entitled to priority treatment based on clinical need. </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="hr-line">
+                                    <hr class="ds_!_margin-bottom--1 ds_!_margin-top--1">
+                                </div>
+
+                                <div class="ds_services-list">
+                                    <h2 class="ds_title ds_!_margin-bottom--2">
+                                        <a class="ds_search-result__link" href="#">Grampian Women’s Aid</a>
+                                    </h2>
+                                    <p class="ds_!_margin-bottom--1">Free, confidential specialist service to women, children and young people in Aberdeen and Aberdeenshire who have experienced domestic abuse.</p>
+                                    <!-- <button class="ds_button  ds_button--secondary ds_button--max ds_!_margin-bottom--0">View service information <span class=""><i class="material-icons" style="vertical-align: bottom;">chevron_right</i></span> </button> -->
+                                    <div class="ds_accordion-item">
+                                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-5" aria-labelledby="panel-2-heading" />
+                                        <div class="ds_accordion-item__header">
+                                            <h3 id="panel-2-heading" class="ds_accordion-item__title">
+                                                View service information
+                                            </h3>
+                                            <span class="ds_accordion-item__indicator"></span>
+                                            <label class="ds_accordion-item__label" for="panel-5"><span class="visually-hidden">Show this section</span></label>
+                                        </div>
+                                        <div class="ds_accordion-item__body">
+                                            <p>Veterans are entitled to the same healthcare as any citizen. And there are <a href="#">health care options and support</a> available specifically for veterans.  </p>
+                                            <p>If you have a health condition that's related to your service, you're entitled to priority treatment based on clinical need. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-line">
+                                    <hr class="ds_!_margin-bottom--1 ds_!_margin-top--1">
+                                </div>
+
+                                <div class="ds_services-list">
+                                    <h2 class="ds_title ds_!_margin-bottom--2">
+                                        <a class="ds_search-result__link" href="#">FearFree (SACRO)</a></h2>
+                                    <p class="ds_!_margin-bottom--1">Support service for any man, or LGBTQAI+ person experiencing domestic abuse. This service is limited. </p>
+                                    <div class="ds_accordion-item">
+                                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-6" aria-labelledby="panel-2-heading" />
+                                        <div class="ds_accordion-item__header">
+                                            <h3 id="panel-2-heading" class="ds_accordion-item__title">
+                                                View service information
+                                            </h3>
+                                            <span class="ds_accordion-item__indicator"></span>
+                                            <label class="ds_accordion-item__label" for="panel-6"><span class="visually-hidden">Show this section</span></label>
+                                        </div>
+                                        <div class="ds_accordion-item__body">
+                                            <p>Veterans are entitled to the same healthcare as any citizen. And there are <a href="#">health care options and support</a> available specifically for veterans.  </p>
+                                            <p>If you have a health condition that's related to your service, you're entitled to priority treatment based on clinical need. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-line">
+                                    <hr class="ds_!_margin-bottom--1 ds_!_margin-top--1">
+                                </div>
+
+                                <div class="ds_services-list">
+                                    <h2 class="ds_title ds_!_margin-bottom--2">
+                                        <a class="ds_search-result__link" href="#">FearFree (SACRO)</a></h2>
+                                    <p class="ds_!_margin-bottom--1">Support service for any man, or LGBTQAI+ person experiencing domestic abuse. This service is limited. </p>
+                                    <div class="ds_accordion-item">
+                                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-7" aria-labelledby="panel-2-heading" />
+                                        <div class="ds_accordion-item__header">
+                                            <h3 id="panel-2-heading" class="ds_accordion-item__title">
+                                                View service information
+                                            </h3>
+                                            <span class="ds_accordion-item__indicator"></span>
+                                            <label class="ds_accordion-item__label" for="panel-7"><span class="visually-hidden">Show this section</span></label>
+                                        </div>
+                                        <div class="ds_accordion-item__body">
+                                            <p>Veterans are entitled to the same healthcare as any citizen. And there are <a href="#">health care options and support</a> available specifically for veterans.  </p>
+                                            <p>If you have a health condition that's related to your service, you're entitled to priority treatment based on clinical need. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-line">
+                                    <hr class="ds_!_margin-bottom--1 ds_!_margin-top--1">
+                                </div>
+
+                                <div class="ds_services-list">
+                                    <h2 class="ds_title ds_!_margin-bottom--2">
+                                        <a class="ds_search-result__link" href="#">FearFree (SACRO)</a></h2>
+                                    <p class="ds_!_margin-bottom--1">Support service for any man, or LGBTQAI+ person experiencing domestic abuse. This service is limited. </p>
+                                    <div class="ds_accordion-item">
+                                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-8" aria-labelledby="panel-2-heading" />
+                                        <div class="ds_accordion-item__header">
+                                            <h3 id="panel-2-heading" class="ds_accordion-item__title">
+                                                View service information
+                                            </h3>
+                                            <span class="ds_accordion-item__indicator"></span>
+                                            <label class="ds_accordion-item__label" for="panel-8"><span class="visually-hidden">Show this section</span></label>
+                                        </div>
+                                        <div class="ds_accordion-item__body">
+                                            <p>Veterans are entitled to the same healthcare as any citizen. And there are <a href="#">health care options and support</a> available specifically for veterans.  </p>
+                                            <p>If you have a health condition that's related to your service, you're entitled to priority treatment based on clinical need. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-line">
+                                    <hr class="ds_!_margin-bottom--1 ds_!_margin-top--1">
+                                </div>
+
+                                <div class="ds_services-list">
+                                    <h2 class="ds_title ds_!_margin-bottom--2">
+                                        <a class="ds_search-result__link" href="#">FearFree (SACRO)</a></h2>
+                                    <p class="ds_!_margin-bottom--1">Support service for any man, or LGBTQAI+ person experiencing domestic abuse. This service is limited. </p>
+                                    <div class="ds_accordion-item">
+                                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-9" aria-labelledby="panel-2-heading" />
+                                        <div class="ds_accordion-item__header">
+                                            <h3 id="panel-2-heading" class="ds_accordion-item__title">
+                                                View service information
+                                            </h3>
+                                            <span class="ds_accordion-item__indicator"></span>
+                                            <label class="ds_accordion-item__label" for="panel-9"><span class="visually-hidden">Show this section</span></label>
+                                        </div>
+                                        <div class="ds_accordion-item__body">
+                                            <p>Veterans are entitled to the same healthcare as any citizen. And there are <a href="#">health care options and support</a> available specifically for veterans.  </p>
+                                            <p>If you have a health condition that's related to your service, you're entitled to priority treatment based on clinical need. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-line">
+                                    <hr class="ds_!_margin-bottom--1 ds_!_margin-top--1">
+                                </div>
+
+                                <div class="ds_services-list">
+                                    <h2 class="ds_title ds_!_margin-bottom--2">
+                                        <a class="ds_search-result__link" href="#">FearFree (SACRO)</a></h2>
+                                    <p class="ds_!_margin-bottom--1">Support service for any man, or LGBTQAI+ person experiencing domestic abuse. This service is limited. </p>
+                                    <div class="ds_accordion-item">
+                                        <input type="checkbox" class="visually-hidden  ds_accordion-item__control" id="panel-10" aria-labelledby="panel-2-heading" />
+                                        <div class="ds_accordion-item__header">
+                                            <h3 id="panel-2-heading" class="ds_accordion-item__title">
+                                                View service information
+                                            </h3>
+                                            <span class="ds_accordion-item__indicator"></span>
+                                            <label class="ds_accordion-item__label" for="panel-10"><span class="visually-hidden">Show this section</span></label>
+                                        </div>
+                                        <div class="ds_accordion-item__body">
+                                            <p>Veterans are entitled to the same healthcare as any citizen. And there are <a href="#">health care options and support</a> available specifically for veterans.  </p>
+                                            <p>If you have a health condition that's related to your service, you're entitled to priority treatment based on clinical need. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-line">
+                                    <hr class="ds_!_margin-bottom--1 ds_!_margin-top--1">
+                                </div>
+                                
+                            </div>
+                            <div class="pagination-row">
+                                <nav class="ds_pagination" aria-label="Search result pages">
+                                    <ul class="ds_pagination__list">
+                                        <li class="ds_pagination__item" aria-current="page">
+                                            <span class="ds_pagination__link  ds_current">1</span>
+                                        </li>
+                                        <li class="ds_pagination__item">
+                                            <a class="ds_pagination__link" href="#">
+                                                <span class="ds_pagination__link-label">2</span>
+                                            </a>
+                                        </li>
+                                        <li class="ds_pagination__item">
+                                            <a class="ds_pagination__link" href="#">
+                                                <span class="ds_pagination__link-label">3</span>
+                                            </a>
+                                        </li>
+                                        <li class="ds_pagination__item">
+                                            <a class="ds_pagination__link" href="#">
+                                                <span class="ds_pagination__link-label">4</span>
+                                            </a>
+                                        </li>
+                                        <li class="ds_pagination__item" aria-hidden="true">
+                                            <span class="ds_pagination__link  ds_pagination__link--ellipsis">&hellip;</span>
+                                        </li>
+                                        <li class="ds_pagination__item">
+                                            <a class="ds_pagination__link" href="#">
+                                                <span class="ds_pagination__link-label">27</span>
+                                            </a>
+                                        </li>
+                                        <li class="ds_pagination__item">
+                                            <a class="ds_pagination__link  ds_pagination__link--text  ds_pagination__link--icon" href="#">
+                                                <span class="ds_pagination__link-label">Next</span>
+                                                <svg class="ds_icon" aria-hidden="true" role="img">
+                                                    <use href="/assets/images/icons/icons.stack.svg#chevron_right"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+						
+                        
+                        
+                    </main>
+                <!--
+                    Main content
+                -->
+                
+                    <main class="ds_layout  ds_layout--article">
+                        <div class="ds_layout__header">
+                            <!--
+                                A ds_article-header component or other header content
+                            -->
+                        </div>
+                        
+
+                        <div class="ds_layout__partner">
+                            <!--
+                                Optional partner branding
+                            -->
+                        </div>
+
+                        <div class="ds_layout__content">
+                            <!--
+                                The article content
+                            -->
+                            
+                        </div>
+
+                        <div class="ds_layout__sidebar">
+                            <!--
+                                Sidebar content, such as related links
+                            -->
+                        </div>
+
+                        <div class="ds_layout__feedback">
+                            <!--
+                                Feedback form
+                            -->							
+                        </div>
+                    </main>
+                </div>
+            </div>
+
+            <div class="ds_page__bottom">
+                <!--
+                    Footer
+                    Scripts
+                -->
+                <footer class="ds_site-footer">
+                    <div class="ds_wrapper">
+                        <ul class="ds_site-footer__site-items">
+                            <li class="ds_site-items__item">
+                                <a href="#">Get Started</a>
+                            </li>
+                            <li class="ds_site-items__item">
+                                <a href="#">Are you concerned?</a>
+                            </li>
+                            <li class="ds_site-items__item">
+                                <a href="#">Services in Aberdeen</a>
+                            </li>
+                            <li class="ds_site-items__item">
+                                <a href="#">Protecting yourself online</a>
+                            </li>
+                            <li class="ds_site-items__item">
+                                <a href="#">What is domestic abuse</a>
+                            </li>
+                            <li class="ds_site-items__item">
+                                <a href="#">About us</a>
+                            </li>
+                        </ul>
+                        <div class="">
+                            <p>All content and &copy; 2022 Aberdeen City Council. All rights reserved.</p>
+                        </div>
+                        <div>
+                            <a class="ds_site-branding__logo  ds_site-branding__link" href="/">
+                                <span class="ds_branding_logo-content">
+                                <img class="ds_site-branding__logo-image" src="assets/images/logos/Aberdeen_Protects_white.png" alt="Digital Scotland">
+                                <span class="ds_logo-text">Domestic abuse support services</span>  
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <div class="ds_back-to-top" data-module="ds-back-to-top">
+            <a href="#" class="ds_back-to-top__button">Back to top <svg class="ds_icon  ds_back-to-top__icon" aria-hidden="true" role="img"><use href="/assets/images/icons/icons.stack.svg#arrow_upward"></use></svg></a>
+        </div>
+        <div class="leave-site-box">
+            <a href="#" class="ds_button"><i class="material-icons">logout</i>Leave site</a>
+        </div>
+    </body>
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Browsers with ES module support load these files -->
+    <script type="module" src="assets/js/pattern-library.js"></script>
+
+    <!-- Older browsers load these files -->
+    <!-- (and module-supporting browsers know *not* to load these files) -->
+    <script nomodule src="assets/js/pattern-library.es5.js"></script>
+    <script src="assets/js/script.js"></script>
+</html>

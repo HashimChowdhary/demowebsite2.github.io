@@ -1,0 +1,162 @@
+/*Brand
+SCSS variable	Hex code*/
+$ds_colour__brand:#0065bd;
+$ds_colour__brand--secondary:#002d54;
+/*Text
+SCSS variable	Hex code*/
+$ds_colour__text:#333333;
+$ds_colour__text--secondary:#727272;
+/*Links
+SCSS variable	Hex code*/
+$ds_colour__link:#0065bd;
+$ds_colour__link--hover:#00437e;
+$ds_colour__link--hover__background:#d9effc;
+$ds_colour__link--current:#333333;
+$ds_colour__link--current__background:#f8f8f8;
+/*Focus
+SCSS variable	Hex code*/
+$ds_colour__link--focus:#333333;
+$ds_colour__link--focus__background:#fdd522;
+/*Positive and negative messaging
+SCSS variable	Hex code*/
+$ds_colour__state--negative:#d32205;
+$ds_colour__state--positive:#428542;
+/*Borders
+SCSS variable	Hex code*/
+$ds_colour__border:#b3b3b3;
+$ds_colour__border--dark:#333333;
+$ds_colour__border--light:#ebebeb;
+$ds_colour__border--highlight:#0065bd;
+/*custom */
+$ds_bg_darkgray:#333333;
+$ds_bg_lightgray:#F3F2F1;
+
+@import "../../node_modules/@scottish-government/pattern-library/dist/css/pattern-library";
+@import "../../node_modules/@scottish-government/pattern-library/src/pattern-library";
+@import "../../node_modules/@scottish-government/pattern-library/src/forms/all-forms";
+
+.ds_page__middle {
+    .ds_banner {
+        background-color: $ds_colour__brand;
+        min-height: 400px;
+        color:#fff;
+        .ds_wrapper {
+            height:100%;
+            .ds_feature-header__primary {
+                display: flex;
+                height: 100%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                .ds_feature-header__title {
+                    font-size: 2.2rem;
+                    line-height: 1.2;
+                    font-weight: bold;
+                }
+            }
+        }
+        
+    }
+    .ds_bg_darkgray { 
+        background-color: $ds_bg_darkgray;
+        color:#fff;
+        text-align: center;
+    }
+    .ds_bg_lightgray { 
+        background-color: $ds_bg_lightgray;
+        padding: 2rem 0rem;
+        .ds_title {
+            margin-bottom: 0.5rem;
+        }
+        button {
+            margin: 0.25rem 0px;
+        }
+    }
+    .ds_main {
+        padding: 2rem 0rem;
+        .ds_filter-row {
+            display: flex;
+            align-items: normal;
+            @media only screen and (max-width: 767px) {
+                flex-direction: column;
+            }
+            .ds_service-type, .ds_sort-by {
+                flex: 2;
+            }
+            .ds_btn-filter {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                @media only screen and (max-width: 767px) {
+                    justify-content: start;
+                }
+                align-items: flex-end;
+                .ds_button {
+                    height: 48px;
+                    padding: 12px 16px;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        display: inline-block;
+                        width: 15%;
+                        height: 2px;
+                        background-color: $ds_colour__brand;
+                        left: 43%;
+                        top: -20%;
+                        z-index: -1;
+                        transform: rotate(90deg);
+                        @media only screen and (max-width: 767px) {
+                            display: none;
+                        }
+
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        display: inline-block;
+                        width: 15%;
+                        height: 2px;
+                        background-color: $ds_colour__brand;
+                        right: 41%;
+                        bottom: -20%;
+                        z-index: -1;
+                        transform: rotate(90deg);
+                        @media only screen and (max-width: 767px) {
+                            display: none;
+                        }
+                    }
+                }
+                
+                
+            }
+        }
+        .ds_section {
+            .ds_content {
+                display: flex;
+                flex-wrap: wrap;
+                @media only screen and (max-width: 767px) {
+                    flex-direction: column;
+                }
+                // .ds_services-list {
+                //     position: relative;
+                //     padding-bottom: 70px;
+                //     button {
+                //         position: absolute;
+                //         bottom: 10px;
+                //     }
+                // }
+                & >div {
+                    flex-basis: 100%;
+                    max-width: 80%;
+                    /* display: block; */
+                    padding: 8px 12px;
+                    margin-bottom: 1rem;
+                    position: relative;
+                    &.hr-line{
+                        max-width: 100%; 
+                    }
+                }
+            }
+        }
+    }
+}
