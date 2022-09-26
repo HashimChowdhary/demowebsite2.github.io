@@ -142,9 +142,12 @@ a:hover {
     }
     .ds_main{
         p,address {
-            a {
+            a:not(.ds_button) {
                 color:$ds_themeblue_link_color;
                 font-weight: 500;
+            }
+            a.ds_button {
+                margin-bottom: 0;
             }
         }
     }

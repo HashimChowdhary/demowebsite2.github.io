@@ -16087,9 +16087,12 @@ a:hover {
 .ds_page__middle.get_started .ds_main p a {
   color: #000885;
 }
-.ds_page__middle .ds_main p a, .ds_page__middle .ds_main address a {
+.ds_page__middle .ds_main p a:not(.ds_button), .ds_page__middle .ds_main address a:not(.ds_button) {
   color: #000885;
   font-weight: 500;
+}
+.ds_page__middle .ds_main p a.ds_button, .ds_page__middle .ds_main address a.ds_button {
+  margin-bottom: 0;
 }
 .ds_page__middle .ds_banner {
   background-color: #412A45;
