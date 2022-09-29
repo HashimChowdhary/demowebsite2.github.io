@@ -16087,6 +16087,9 @@ a:hover {
 .ds_page__middle.get_started .ds_main p a {
   color: #000885;
 }
+.ds_page__middle .ds_site-header__searchpage {
+  max-width: 750px;
+}
 .ds_page__middle .ds_main p a:not(.ds_button), .ds_page__middle .ds_main address a:not(.ds_button) {
   color: #000885;
   font-weight: 500;
