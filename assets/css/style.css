@@ -16345,4 +16345,41 @@ a:hover {
   font-weight: 300;
 }
 
+/* @print css */
+@media print {
+  body {
+    background: none;
+    color: black;
+  }
+
+  #page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+    margin: 2cm;
+  }
+
+  .ds-page, .ds_page__top, .ds_page__middle, .ds_page__bottom {
+    display: block;
+  }
+
+  .home_services-list {
+    columns: 2;
+    column-gap: 2cm;
+  }
+
+  .ds_page__top, .ds_site-footer, nav, .leave-site-box {
+    display: none;
+  }
+
+  h4 {
+    break-after: avoid;
+  }
+
+  .preview-action {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
