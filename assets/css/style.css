@@ -16008,6 +16008,14 @@ a:hover {
   text-align: left;
 }
 
+.ds_site-header--gradient::before {
+  background: none;
+}
+
+.ds_site-footer__site-items {
+  border: none;
+}
+
 .ds_top_band {
   min-height: 40px;
   padding: 5px 0px;
